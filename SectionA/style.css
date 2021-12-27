@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+    
+}
+#header{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/back6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#topNav{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#section0{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    
+}
+#section1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+}
+#topList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30px;
+    
+}
+.list{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logo{  
+    margin-left: 20px;
+    padding-left: 30px;
+}
+#title{
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+#titleInfo{
+    width: 50%;
+    font-size: 25px;
+    margin-bottom: 70px;
+
+}
+#btnTop{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 250px ;
+    
+}
+.headBtn{
+    width: 46% ;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px ;
+    text-decoration: none;
+    border: 1px solid white ;
+    padding: 15px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#join:hover{
+    background-color: white;
+    color: black;
+}
+#title2{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+    font-weight: bold;
+
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    width: 15%;
+}
+.cardTitle{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.cardInfo{
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 80px;
+
+}
+.cardBtn{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    border: 3px solid black;  
+    margin-bottom: 50px;
+    width: 80%;
+    padding: 15px 10px;
+    font-weight: bold;
+   
+}
+.cardBtn:hover{
+    background-color: black;
+    color: white;
+}
+#main{ 
+    margin-top: 150px;
+}
+#footer{
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+.logoBottom{
+    width: 29px;
+    height: 29px;
+    margin-left: 25px;
+}
+#bottomList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+#bottomNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    
+
+}
+.list2{
+    list-style: none;
+}
+#copy{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+#points{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    visibility: hidden;
+}
+.point{
+    width: 15px;
+    height: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+@media screen and (max-width: 415px){
+    #topList{
+        display: none;
+    }
+    #points{
+        visibility: visible;
+        top: 1.5%;
+        right: 0%;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    #title{
+        font-size: 41px;
+    }
+    #titleInfo{
+        font-size: 18px;
+        width: 284.27px;
+    }
+    #btnTop{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+        width: 120%;
+    }
+    .headBtn{
+        margin-bottom: 30px;
+    }
+    #title2{
+        font-size: 35px;
+
+    }
+    #cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .card{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    #bottomNav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #bottomList{
+        width: 60%;
+        padding-right: 50px;
+    }
+    #copy{
+        padding-left: 30px;
+    }
+}
